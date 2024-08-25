@@ -1,6 +1,7 @@
 import javax.swing.*;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
+import java.util.Arrays;
 
 public class Main extends JFrame {
     private JPanel MainPanel;
@@ -21,6 +22,8 @@ public class Main extends JFrame {
     private JTextField peso3field;
     private JTextField peso4field;
     private JLabel Amplitudedospesos;
+    private JLabel resultadoamplitude;
+    private JLabel resultadoAmplitude;  // Adicione a JLabel para exibir a amplitude
 
     public Main() {
         setContentPane(MainPanel);
@@ -28,9 +31,10 @@ public class Main extends JFrame {
         setDefaultCloseOperation(EXIT_ON_CLOSE);
         setSize(350, 490);
         setLocationRelativeTo(null);
+        setResizable(false);
         setVisible(true);
 
-        // Adicionando a funcionalidade de calcular a média
+        // Adicionando a funcionalidade de calcular a média e a amplitude
         CalcButton.addActionListener(new ActionListener() {
             @Override
             public void actionPerformed(ActionEvent e) {
@@ -45,8 +49,16 @@ public class Main extends JFrame {
                     // Calcula a média
                     double media = (peso1 + peso2 + peso3 + peso4 + peso5) / 5;
 
+                    // Calcula a amplitude
+                    double[] pesos = {peso1, peso2, peso3, peso4, peso5};
+                    double max = Arrays.stream(pesos).max().getAsDouble();
+                    double min = Arrays.stream(pesos).min().getAsDouble();
+                    double amplitude = max - min;
+
                     // Exibe o resultado na label
                     resultadomedia.setText(String.format("Média: %.2f", media));
+                    resultadoamplitude.setText(String.format("Amplitude: %.2f", amplitude));
+
                 } catch (NumberFormatException ex) {
                     // Caso algum dos valores não seja um número válido, exibe uma mensagem de erro
                     JOptionPane.showMessageDialog(Main.this, "Por favor, insira valores numéricos válidos.", "Erro", JOptionPane.ERROR_MESSAGE);
@@ -64,6 +76,7 @@ public class Main extends JFrame {
                 peso4field.setText("");
                 peso5field.setText("");
                 resultadomedia.setText("");
+                resultadoAmplitude.setText("");  // Limpa a label de amplitude
             }
         });
     }
