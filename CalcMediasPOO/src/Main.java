@@ -76,7 +76,7 @@ public class Main extends JFrame {
                 peso4field.setText("");
                 peso5field.setText("");
                 resultadomedia.setText("");
-                resultadoAmplitude.setText("");  // Limpa a label de amplitude
+                resultadoamplitude.setText("");  // Limpa a label de amplitude
             }
         });
     }
