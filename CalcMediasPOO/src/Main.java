@@ -23,13 +23,15 @@ public class Main extends JFrame {
     private JTextField peso4field;
     private JLabel Amplitudedospesos;
     private JLabel resultadoamplitude;
+    private JTextField responsavelField;
+    private JTextField produtoField;
     private JLabel resultadoAmplitude;  // Adicione a JLabel para exibir a amplitude
 
     public Main() {
         setContentPane(MainPanel);
         setTitle("Relação de Peso");
         setDefaultCloseOperation(EXIT_ON_CLOSE);
-        setSize(350, 490);
+        setSize(460, 490);
         setLocationRelativeTo(null);
         setResizable(false);
         setVisible(true);
@@ -76,7 +78,9 @@ public class Main extends JFrame {
                 peso4field.setText("");
                 peso5field.setText("");
                 resultadomedia.setText("");
-                resultadoamplitude.setText("");  // Limpa a label de amplitude
+                resultadoamplitude.setText("");
+                responsavelField.setText("");
+                produtoField.setText("");// Limpa a label de amplitude
             }
         });
     }
