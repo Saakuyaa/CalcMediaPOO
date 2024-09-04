@@ -1,1 +1,1 @@
-Por gentileza setar o diretório src main como sourceroot.
+Por gentileza setar o diretório CalcMediasPOO/src  como sourceroot.
