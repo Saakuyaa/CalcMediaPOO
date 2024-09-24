@@ -2,18 +2,19 @@ import javax.swing.*;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 import java.io.File;
-import java.util.Arrays;
 
 public class Main extends JFrame {
     private JPanel MainPanel;
+    private JLabel RelaçaoPeso;
+    private JLabel mediadospesos;
+    private JLabel Amplitudedospesos;
     private JLabel peso1, peso2, peso3, peso4, peso5;
     private JTextField peso1field, peso2field, peso3field, peso4field, peso5field;
-    private JLabel mediadospesos, resultadomedia, Amplitudedospesos, resultadoamplitude;
+    private JLabel resultadomedia, resultadoamplitude;
     private JTextField responsavelField, produtoField;
     private JButton LimpButton, CalcButton, SaveButton;
-    private JLabel RelaçaoPeso;
-    public Main() {
 
+    public Main() {
         setContentPane(MainPanel);
         setTitle("Relação de Peso");
         setDefaultCloseOperation(EXIT_ON_CLOSE);
