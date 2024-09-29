@@ -1,0 +1,221 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="Main">
+  <grid id="27dc6" binding="MainPanel" layout-manager="GridLayoutManager" row-count="9" column-count="9" same-size-horizontally="false" same-size-vertically="false" hgap="0" vgap="0">
+    <margin top="4" left="8" bottom="0" right="0"/>
+    <constraints>
+      <xy x="20" y="25" width="409" height="306"/>
+    </constraints>
+    <properties>
+      <enabled value="true"/>
+    </properties>
+    <border type="bevel-lowered"/>
+    <children>
+      <component id="17023" class="javax.swing.JLabel" binding="RelaçaoPeso">
+        <constraints>
+          <grid row="0" column="1" row-span="1" col-span="7" vsize-policy="0" hsize-policy="7" anchor="4" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font name="Times New Roman" size="28" style="1"/>
+          <text value="Relação de Peso"/>
+        </properties>
+      </component>
+      <component id="3cfad" class="javax.swing.JLabel" binding="peso5">
+        <constraints>
+          <grid row="7" column="0" row-span="1" col-span="2" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false">
+            <preferred-size width="83" height="17"/>
+          </grid>
+        </constraints>
+        <properties>
+          <text value="Quinto peso"/>
+        </properties>
+      </component>
+      <component id="155ee" class="javax.swing.JLabel" binding="peso3">
+        <constraints>
+          <grid row="5" column="0" row-span="1" col-span="2" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false">
+            <preferred-size width="83" height="17"/>
+          </grid>
+        </constraints>
+        <properties>
+          <text value="Terceiro Peso"/>
+        </properties>
+      </component>
+      <component id="4c45e" class="javax.swing.JLabel" binding="peso2">
+        <constraints>
+          <grid row="4" column="0" row-span="1" col-span="2" vsize-policy="0" hsize-policy="7" anchor="8" fill="0" indent="0" use-parent-layout="false">
+            <preferred-size width="83" height="17"/>
+          </grid>
+        </constraints>
+        <properties>
+          <text value="Segundo Peso"/>
+        </properties>
+      </component>
+      <component id="50209" class="javax.swing.JLabel" binding="peso1">
+        <constraints>
+          <grid row="3" column="0" row-span="1" col-span="2" vsize-policy="0" hsize-policy="3" anchor="0" fill="0" indent="0" use-parent-layout="false">
+            <preferred-size width="83" height="17"/>
+          </grid>
+        </constraints>
+        <properties>
+          <text value="Primeiro Peso"/>
+        </properties>
+      </component>
+      <component id="bfdf6" class="javax.swing.JLabel" binding="peso4">
+        <constraints>
+          <grid row="6" column="0" row-span="1" col-span="2" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false">
+            <preferred-size width="83" height="17"/>
+          </grid>
+        </constraints>
+        <properties>
+          <text value="Quarto Peso"/>
+        </properties>
+      </component>
+      <component id="4eceb" class="javax.swing.JTextField" binding="peso5field">
+        <constraints>
+          <grid row="7" column="3" row-span="1" col-span="1" vsize-policy="1" hsize-policy="7" anchor="8" fill="0" indent="0" use-parent-layout="false">
+            <preferred-size width="90" height="-1"/>
+          </grid>
+        </constraints>
+        <properties/>
+      </component>
+      <component id="ba62c" class="javax.swing.JButton" binding="SaveButton">
+        <constraints>
+          <grid row="7" column="4" row-span="1" col-span="5" vsize-policy="1" hsize-policy="7" anchor="0" fill="0" indent="0" use-parent-layout="false">
+            <preferred-size width="45" height="-1"/>
+          </grid>
+        </constraints>
+        <properties>
+          <text value="Salvar"/>
+        </properties>
+      </component>
+      <component id="cbd7f" class="javax.swing.JButton" binding="CalcButton">
+        <constraints>
+          <grid row="8" column="3" row-span="1" col-span="1" vsize-policy="0" hsize-policy="7" anchor="9" fill="0" indent="0" use-parent-layout="false">
+            <preferred-size width="45" height="-1"/>
+          </grid>
+        </constraints>
+        <properties>
+          <text value="Calcular"/>
+        </properties>
+      </component>
+      <component id="c738f" class="javax.swing.JButton" binding="LimpButton">
+        <constraints>
+          <grid row="8" column="4" row-span="1" col-span="5" vsize-policy="0" hsize-policy="7" anchor="1" fill="0" indent="0" use-parent-layout="false">
+            <preferred-size width="45" height="-1"/>
+          </grid>
+        </constraints>
+        <properties>
+          <text value="Limpar"/>
+        </properties>
+      </component>
+      <component id="d2a77" class="javax.swing.JTextField" binding="peso4field">
+        <constraints>
+          <grid row="6" column="3" row-span="1" col-span="4" vsize-policy="1" hsize-policy="7" anchor="8" fill="0" indent="0" use-parent-layout="false">
+            <preferred-size width="90" height="-1"/>
+          </grid>
+        </constraints>
+        <properties>
+          <text value=""/>
+        </properties>
+      </component>
+      <component id="6f907" class="javax.swing.JTextField" binding="peso1field">
+        <constraints>
+          <grid row="3" column="3" row-span="1" col-span="2" vsize-policy="1" hsize-policy="7" anchor="8" fill="0" indent="0" use-parent-layout="false">
+            <preferred-size width="90" height="-1"/>
+          </grid>
+        </constraints>
+        <properties>
+          <alignmentX value="0.5"/>
+        </properties>
+      </component>
+      <component id="e77b9" class="javax.swing.JLabel" binding="mediadospesos">
+        <constraints>
+          <grid row="3" column="5" row-span="1" col-span="4" vsize-policy="1" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <horizontalAlignment value="2"/>
+          <horizontalTextPosition value="2"/>
+          <requestFocusEnabled value="false"/>
+          <text value="A média dos&#10; pesos é:"/>
+        </properties>
+      </component>
+      <component id="48ccd" class="javax.swing.JLabel" binding="Amplitudedospesos">
+        <constraints>
+          <grid row="5" column="6" row-span="1" col-span="3" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="A amplitude dos&#10; pesos é:"/>
+        </properties>
+      </component>
+      <component id="fb368" class="javax.swing.JLabel" binding="resultadomedia">
+        <constraints>
+          <grid row="4" column="8" row-span="1" col-span="1" vsize-policy="0" hsize-policy="7" anchor="1" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="..."/>
+        </properties>
+      </component>
+      <component id="b8e27" class="javax.swing.JLabel" binding="resultadoamplitude">
+        <constraints>
+          <grid row="6" column="7" row-span="1" col-span="2" vsize-policy="0" hsize-policy="7" anchor="1" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="..."/>
+        </properties>
+      </component>
+      <component id="abe37" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="7" anchor="0" fill="0" indent="0" use-parent-layout="false">
+            <preferred-size width="69" height="17"/>
+          </grid>
+        </constraints>
+        <properties>
+          <text value="Produto"/>
+        </properties>
+      </component>
+      <component id="33d0f" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="1" column="8" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="Responsável"/>
+        </properties>
+      </component>
+      <component id="713cc" class="javax.swing.JTextField" binding="peso2field">
+        <constraints>
+          <grid row="4" column="3" row-span="1" col-span="2" vsize-policy="1" hsize-policy="7" anchor="8" fill="0" indent="0" use-parent-layout="false">
+            <preferred-size width="90" height="-1"/>
+          </grid>
+        </constraints>
+        <properties>
+          <alignmentX value="0.5"/>
+        </properties>
+      </component>
+      <component id="5019c" class="javax.swing.JTextField" binding="peso3field">
+        <constraints>
+          <grid row="5" column="3" row-span="1" col-span="2" vsize-policy="1" hsize-policy="7" anchor="8" fill="0" indent="0" use-parent-layout="false">
+            <preferred-size width="90" height="-1"/>
+          </grid>
+        </constraints>
+        <properties>
+          <alignmentX value="0.5"/>
+        </properties>
+      </component>
+      <component id="18b50" class="javax.swing.JTextField" binding="produtoField">
+        <constraints>
+          <grid row="2" column="0" row-span="1" col-span="3" vsize-policy="0" hsize-policy="7" anchor="9" fill="1" indent="0" use-parent-layout="false">
+            <preferred-size width="100" height="-1"/>
+          </grid>
+        </constraints>
+        <properties/>
+      </component>
+      <component id="ae36c" class="javax.swing.JTextField" binding="responsavelField">
+        <constraints>
+          <grid row="2" column="6" row-span="1" col-span="3" vsize-policy="0" hsize-policy="1" anchor="1" fill="0" indent="1" use-parent-layout="false">
+            <preferred-size width="90" height="-1"/>
+          </grid>
+        </constraints>
+        <properties/>
+      </component>
+    </children>
+  </grid>
+</form>
